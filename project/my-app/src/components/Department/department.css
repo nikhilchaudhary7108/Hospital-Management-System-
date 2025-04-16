@@ -1,0 +1,106 @@
+/* department.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7faff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .department-dashboard {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .department-dashboard-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .department-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .option-card {
+    width: 250px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .option-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .option-card h2 {
+    font-size: 1.5rem;
+    color: #007acc;
+    margin-bottom: 10px;
+  }
+  
+  .option-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .list-department, .add-department {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .list-department table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .list-department th, .list-department td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #091939;
+  }
+  
+  .list-department th {
+    background-color: #260404;
+  }
+  
+  .add-department input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-department button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007acc;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-department button:hover {
+    background-color: #005f8c;
+  }
+  
+  .success {
+    color: green;
+    font-size: 1.2rem;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1.2rem;
+  }
+  

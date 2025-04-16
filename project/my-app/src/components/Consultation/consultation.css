@@ -1,0 +1,24 @@
+/* Similar to department.css but styled for consultations */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7faff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .consultation-dashboard, .add-consultation, .list-consultation {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  

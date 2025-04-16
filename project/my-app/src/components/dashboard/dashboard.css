@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f7ff !important; /* Light sky blue background with priority */
+}
+/* Dashboard container */
+.dashboard {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+/* Title styling */
+.dashboard-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #004080; /* Deep navy blue for contrast */
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Options container */
+.options-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* Individual option card styling */
+.option-card {
+    width: 280px;
+    padding: 20px;
+    background-color: #ffffff; /* Clean white background */
+    border-radius: 12px;
+    border: 1px solid #0088cc; /* Light blue border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-color: #0056b3; /* Highlighted border on hover */
+}
+
+.option-card h2 {
+    font-size: 1.8rem;
+    color: #004080; /* Consistent navy blue for headings */
+    margin-bottom: 10px;
+}
+
+.option-card p {
+    font-size: 1rem;
+    color: #333333; /* Neutral text color for readability */
+    line-height: 1.5;
+}
+
+/* Image container styling */
+.image-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hospital-image {
+    max-width: 80%; /* Restrict image size for better scaling */
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border: 2px solid #004080; /* Border for the image */
+}
